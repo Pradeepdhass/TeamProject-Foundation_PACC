@@ -1,0 +1,25 @@
+/* Platform Component Custom styles */
+
+.bg-green-500\/4 {
+  background-color: rgba(40, 200, 64, 0.04);
+}
+
+.bg-green-500\/10 {
+  background-color: rgba(40, 200, 64, 0.1);
+}
+
+.bg-green-500\/15 {
+  background-color: rgba(40, 200, 64, 0.15);
+}
+
+.bg-green-500\/20 {
+  background-color: rgba(40, 200, 64, 0.20);
+}
+
+/* Flex layout helper overrides */
+.align-self-end {
+  align-self: flex-end;
+}
+.align-self-start {
+  align-self: flex-start;
+}

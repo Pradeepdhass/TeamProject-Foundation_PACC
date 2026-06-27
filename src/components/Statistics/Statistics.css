@@ -1,0 +1,17 @@
+/* Statistics component styling */
+
+@media (max-width: 991.98px) {
+  .border-end {
+    border-right: none !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .border-end {
+    border-right: none !important;
+  }
+}
+
+.last-border-none:last-child {
+  border-right: none !important;
+}

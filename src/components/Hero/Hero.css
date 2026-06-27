@@ -1,0 +1,83 @@
+/* Hero section specific styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+
+.font-display{
+  font-size: small;
+    font-family: "Inter", sans-serif;
+}
+
+.bg-radial-theme {
+  background: radial-gradient(ellipse 80% 55% at 50% 0%, rgba(128, 4, 4, 0.055) 0%, transparent 65%),
+              radial-gradient(ellipse 50% 40% at 80% 90%, rgba(43, 138, 183, 0.04) 0%, transparent 60%);
+}
+
+.bg-grid-theme {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.022) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0, 0, 0, 0.022) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* Responsively scale down the browser dashboard mockup on smaller screens */
+.scale-wrapper {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+  transform-origin: top center;
+}
+
+
+.hero-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: -1.5px;
+    max-width: 900px;
+    margin: 0 auto 24px;
+}
+
+@media (max-width: 1200px){
+    .hero-title{
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 992px){
+    .hero-title{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px){
+    .hero-title{
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 576px){
+    .hero-title{
+        font-size: 1.8rem;
+        line-height: 1.25;
+    }
+}
+@media (max-width: 991.98px) {
+  .scale-wrapper {
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 767.98px) {
+  .scale-wrapper {
+    transform: scale(0.8);
+    margin-bottom: -15%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .scale-wrapper {
+    transform: scale(0.7);
+    margin-bottom: -25%;
+  }
+}

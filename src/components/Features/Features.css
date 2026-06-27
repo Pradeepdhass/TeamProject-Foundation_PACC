@@ -1,0 +1,15 @@
+/* Features card animations */
+
+.feature-card {
+  transition: transform 0.25s ease-out, box-shadow 0.25s ease-out, border-color 0.25s ease-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-3px);
+  border-color: transparent !important;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.07);
+}
+
+.bg-burg\/6 {
+  background-color: rgba(128, 4, 4, 0.06);
+}

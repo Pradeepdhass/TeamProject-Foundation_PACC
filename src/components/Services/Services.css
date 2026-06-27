@@ -1,0 +1,10 @@
+/* Services card styling */
+
+.shadow-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.shadow-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}

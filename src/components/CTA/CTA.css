@@ -1,0 +1,24 @@
+/* CTA component specific styling */
+
+.bg-cta-gradient {
+  background: linear-gradient(135deg, var(--color-burg) 0%, #4a0202 100%);
+}
+
+.bg-cta-radials {
+  background: radial-gradient(ellipse 60% 70% at 20% 50%, rgba(255,255,255,0.04) 0%, transparent 60%),
+              radial-gradient(ellipse 40% 50% at 80% 20%, rgba(67, 173, 175, 0.10) 0%, transparent 60%);
+}
+
+/* Hover effects */
+.hover-translate-y-half:hover {
+  transform: translateY(-2px);
+}
+.hover\:shadow-xl:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.border-white\/30 {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+.hover\:border-white\/70:hover {
+  border-color: rgba(255, 255, 255, 0.7) !important;
+}
